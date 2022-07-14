@@ -5,7 +5,7 @@
     createdAt:Date,
     stock: number,
     size?: Sizes
-  }
+  };
   const products: Product[] = [];
 
   const addProduct = (data:Product) => {
